@@ -27,10 +27,13 @@ section {
     align-items: center;
     flex-direction: column;
 
-    min-height: 400px;
     padding: 100px 20vw;
 
     background-color: var(--pa-bg);
+}
+
+section.hero {
+    min-height: 400px;
 }
 
 /* Mask for my image */
@@ -40,6 +43,21 @@ section {
     width: 75%;
     height: 75%;
     mask-size: cover;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/* Major heroes get a full screen */
+.hero {
+    align-self: center;
+    justify-content: center;
 }
 
 /* Grid stuff */
