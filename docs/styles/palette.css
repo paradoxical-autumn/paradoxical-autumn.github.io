@@ -1,0 +1,10 @@
+.pa-black   {--pa-bg: #1f1f1f; --pa-fg: white}
+.pa-grey    {--pa-bg: #3f3f3f; --pa-fg: white}
+.pa-white   {--pa-bg: white; --pg-fg: black}
+
+.pa-orange  {--pa-bg: #ff903f; --pa-fg: #fff; }
+.pa-pink    {--pa-bg: #bf51fe; --pa-fg: #fff; }
+.pa-blurple {--pa-bg: #807ffe; --pa-fg: #fff; }
+.pa-green   {--pa-bg: #43b582; --pa-fg: #fff; }
+.pa-red     {--pa-bg: #ec4245; --pa-fg: #fff; }
+.pa-purple  {--pa-bg: #8143e6; --pa-fg: #fff; }

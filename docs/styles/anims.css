@@ -1,0 +1,45 @@
+*[letter-animation="breathe"] > * {
+    white-space: break-spaces;
+    display: inline-block;
+    animation: breathe 1200ms ease calc(var(--index) * 100 * 1ms) infinite alternate;
+}
+
+@keyframes breathe {
+    from {
+        animation-timing-function: ease-in-out;
+    }
+    to {
+        transform: translateY(-0.25em);
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(-.3px, .3px)
+    }
+    12.5% {
+        transform: translate(-.10px, -.2px)
+    }
+    25% {
+        transform: translate(.9px, -.9px)
+    }
+    37.5% {
+        transform: translate(.1px, .6px)
+    }
+    50% {
+        transform: translate(-.5px, -.9px)
+    }
+    67.5% {
+        transform: translate(.7px, -.4px)
+    }
+    75% {
+        transform: translate(-.9px, -.10px)
+    }
+    87.5% {
+        transform: translate(-.6px, -.4px)
+    }
+    100% {
+        transform: translate(0, .3px);
+    }
+}

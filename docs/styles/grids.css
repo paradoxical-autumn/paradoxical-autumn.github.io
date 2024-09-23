@@ -1,0 +1,65 @@
+/* Grid area stuff */
+.grid-holder {
+    background-image: linear-gradient(68deg, #7139FF 0%, #D573EC 100%);
+    background-repeat: no-repeat;
+}
+
+.missaligned-grid {
+    display: grid;
+    gap: 0rem;
+    grid-template-areas:
+    "header"
+    "left"
+    "right"
+    "mid";
+
+    @media (min-aspect-ratio: 4/3) {
+        grid-template:
+        "left header right" auto
+        "left mid mid" auto
+        "left mid mid" 1fr
+        / 0.25fr 1fr;
+        gap: .5rem;
+    }
+
+    width: min(1152px, 90vw) !important;
+    padding-block: 2rem;
+    margin-inline: auto;
+}
+
+.missaligned-grid > * {
+    border-radius: 8px;
+    background-color: #3f3f3f;
+    padding: .75rem;
+    height: min-content;
+    color: white;
+
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+
+    @media (min-aspect-ratio: 4/3) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.grd-head {
+    grid-area: header;
+}
+
+.grd-left {
+    grid-area: left;
+}
+
+.grd-mid {
+    grid-area: mid;
+}
+
+.grd-right {
+    grid-area: right;
+}
+
+.grd-foot {
+    grid-area: footer;
+    text-align: center;
+}
