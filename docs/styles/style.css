@@ -45,6 +45,7 @@ section.hero {
     mask-size: cover;
 }
 
+/* text effects */
 h1 {
     font-size: 2em;
 }
@@ -52,6 +53,13 @@ h1 {
 p {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.one_liner {
+    text-align: center;
+    font-style: italic;
+    color: #ff903f;
+    text-transform: lowercase;
 }
 
 /* Major heroes get a full screen */
