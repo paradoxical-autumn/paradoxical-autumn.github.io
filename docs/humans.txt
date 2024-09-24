@@ -1,0 +1,14 @@
+/* TEAM */
+This website is open source software so not everyone is listed here.
+
+    Lead: "Paradoxical" Autumn C.
+    Contact: its.just.autumn793@gmail.com
+    Website: https://its-autumn.xyz
+    GitHub: https://github.com/paradoxical-autumn
+    Matrix: https://matrix.to/#/@paradox:1024cats.social
+
+/* SITE */
+    Last updated: 24/09/2024 (dd/mm/yyyy)
+    Language: English (United Kingdom)
+    Doctype: HTML5
+    IDE: Visual Studio Code, Notepad
