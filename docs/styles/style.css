@@ -126,7 +126,7 @@ footer > section {
 @media (min-aspect-ratio: 5/3) {
     .portfolio-items {
         display: grid;
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, 1fr);
         place-content: center;
         max-width: 75vw;
     }
@@ -147,7 +147,6 @@ footer > section {
 
     background-clip: padding-box;
     background-color: var(--rt-mg);
-    max-width: fit-content;
 }
 
 .portfolio-item > * {
