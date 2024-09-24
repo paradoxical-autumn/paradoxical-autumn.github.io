@@ -22,3 +22,24 @@ This CSS file defines custom shapes used throughout the website.
 .custom-shape-divider-bottom-1727087511 .shape-fill {
     fill: var(--rt-bg);
 }
+
+/* alt port shape */
+.custom-shape-divider-bottom-1727188782 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727188782 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1727188782 .shape-fill {
+    fill: var(--rt-bg);
+}

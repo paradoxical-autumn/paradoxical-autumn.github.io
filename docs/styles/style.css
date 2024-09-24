@@ -7,6 +7,7 @@
 :root {
     --rt-bg: #1f1f1f;
     --rt-fg: white;
+    --rt-mg: #3f3f3f;
 }
 
 /*
@@ -33,6 +34,10 @@ section {
 
 section.hero {
     min-height: 400px;
+}
+
+section > p {
+    max-width: 55ch;
 }
 
 /* Mask for my image */
@@ -113,7 +118,7 @@ footer > section {
     border-image-repeat: stretch;
 
     background-clip: padding-box;
-    background-color: #3f3f3f;
+    background-color: var(--rt-mg);
     max-width: fit-content;
     max-height: fit-content;
 }
@@ -141,7 +146,7 @@ footer > section {
     border-image-repeat: stretch;
 
     background-clip: padding-box;
-    background-color: #3f3f3f;
+    background-color: var(--rt-mg);
     max-width: fit-content;
 }
 

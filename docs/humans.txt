@@ -19,4 +19,5 @@ This website is open source software so not everyone is listed here.
     Doctype: HTML5
     IDE: Visual Studio Code, Notepad
     Other software: LiveServer, git, GitHub, GitHub Pages
-        krita, StackOverflow, Reddit
+        krita, StackOverflow, Reddit, shapedivider.app,
+        haikei.app
