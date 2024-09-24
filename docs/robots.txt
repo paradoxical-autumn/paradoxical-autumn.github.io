@@ -2,6 +2,6 @@ User-agent: *
 
 Allow: /
 
-Disallow: /media
-Disallow: /scripts
-Disallow: /styles
+Disallow: /media/*
+Disallow: /scripts/*
+Disallow: /styles/*
