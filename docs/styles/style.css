@@ -117,6 +117,41 @@ footer > section {
     max-height: fit-content;
 }
 
+@media (min-aspect-ratio: 5/3) {
+    .portfolio-items {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        place-content: center;
+    }
+}
+
+.portfolio-item {
+    display: flex;
+    border: solid;
+    align-items: center;
+    justify-content: left;
+
+    padding: .5rem;
+    border-width: 1rem;
+
+    border-image-source: url('/media/bgi/ctnt_bg_blob2.svg');
+    border-image-slice: 30%;
+    border-image-repeat: stretch;
+
+    background-clip: padding-box;
+    background-color: #3f3f3f;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.portfolio-item > * {
+    padding: .5rem;
+}
+
+.portfolio-item > img {
+    max-width: 25%;
+}
+
 a, a:visited {
     color: #1778ff;
 }
