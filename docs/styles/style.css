@@ -122,6 +122,7 @@ footer > section {
         display: grid;
         grid-template-columns: repeat(2, auto);
         place-content: center;
+        max-width: 75vw;
     }
 }
 
@@ -132,7 +133,7 @@ footer > section {
     justify-content: left;
 
     padding: .5rem;
-    border-width: 1rem;
+    border-width: 2.5rem;
 
     border-image-source: url('/media/bgi/ctnt_bg_blob2.svg');
     border-image-slice: 30%;
