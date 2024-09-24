@@ -157,6 +157,7 @@ footer > section {
 
 .portfolio-item > img {
     max-width: 25%;
+    border-radius: 3.5rem;
 }
 
 .portfolio-text > * {
