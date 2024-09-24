@@ -7,8 +7,16 @@ This website is open source software so not everyone is listed here.
     GitHub: https://github.com/paradoxical-autumn
     Matrix: https://matrix.to/#/@paradox:1024cats.social
 
+/* THANKS */
+
+    Fireship
+    YouTube: https://youtube.com/@fireship
+    Website: https://fireship.io
+
 /* SITE */
     Last updated: 24/09/2024 (dd/mm/yyyy)
     Language: English (United Kingdom)
     Doctype: HTML5
     IDE: Visual Studio Code, Notepad
+    Other software: LiveServer, git, GitHub, GitHub Pages
+        krita, StackOverflow, Reddit
