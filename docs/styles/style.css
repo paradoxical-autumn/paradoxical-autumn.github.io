@@ -31,7 +31,7 @@ section {
 
     background-color: var(--pa-bg);
 
-    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 section.hero {
@@ -140,6 +140,8 @@ footer > section {
     align-items: center;
     justify-content: left;
 
+    flex-direction: column;
+
     padding: .5rem;
     border-width: 2.5rem;
 
@@ -149,14 +151,25 @@ footer > section {
 
     background-clip: padding-box;
     background-color: var(--rt-mg);
+
+    @media (max-aspect-ratio: 4/3) {
+        max-width: 90vw;
+    }
+
+    overflow-wrap: anywhere;
 }
 
 .portfolio-item > * {
     padding: .5rem;
 }
 
-.portfolio-item > img {
-    max-width: 25%;
+.portfolio-image {
+    max-width: 100%;
+
+    @media (min-width: 1152px) {
+        max-width: 50%;
+    }
+    
     border-radius: 3.5rem;
 }
 
